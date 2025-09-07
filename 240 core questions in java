@@ -1,0 +1,14 @@
+Ques - What are static block and staic initalizers in java ?
+
+Ans - Static block or static initalizers are used to initalize static fields in java. We declare static blocks when we want to initalize static fields in our class. Static blocks gets executed exactly once when the class is loaded. Static blocks are executed even before the  constructors are executed.
+
+Ques - How to call one constructor frpm another constructor ?
+
+Ans - With in the same class if we want to call one constructor from another we use this() method. Based on the number of parameters we pass appropriate this() method is called.
+Restrictions for using this method ->
+(a) - this() must be the first statement in the constructor.
+(b) - We can't use two this() method in the constructor.
+
+Ques - What is method overriding in java ?
+
+Ans - 
