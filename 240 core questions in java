@@ -11,4 +11,9 @@ Restrictions for using this method ->
 
 Ques - What is method overriding in java ?
 
-Ans - 
+Ans - A child class gives its own version of a method that already exists in the parent class, using the same method name, same parameters and same return type.
+    (a) - Inheritance is required(Child class must extend parent class).
+    (b) - private, static and final methods can't be overridden.
+    (c) - We can use @override annotation to tell the compiler you are overriding.
+
+Ques - 
