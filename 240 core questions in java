@@ -16,4 +16,10 @@ Ans - A child class gives its own version of a method that already exists in the
     (b) - private, static and final methods can't be overridden.
     (c) - We can use @override annotation to tell the compiler you are overriding.
 
-Ques - 
+Ques - What is super keyword in java ?
+
+Ans - The super keyword in java is used inside a child class to refer to things from its parent class.
+    (a) - Call Parent's class constructor
+    (b) - Access Parent's method
+    (c) - Access Parent's variable
+
