@@ -23,3 +23,7 @@ Ans - The super keyword in java is used inside a child class to refer to things 
     (b) - Access Parent's method
     (c) - Access Parent's variable
 
+Ques - Why Java is platform independent ?
+
+Ans - In any programming language soucre code is compiled into executable code. This can't be run across all platforms. When javac compiles a java program it generates an executable file called .class file.
+Class files contains byte code. Byte codes are interpreted only by JVM's. Since these JVM's are made available across all platforms by Sun Microsystems, we can execute this byte code in any platform. Byte code generated in windows environment can also be executed in linux environment. This makes java platform independent.
