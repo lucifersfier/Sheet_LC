@@ -27,3 +27,24 @@ Ques - Why Java is platform independent ?
 
 Ans - In any programming language soucre code is compiled into executable code. This can't be run across all platforms. When javac compiles a java program it generates an executable file called .class file.
 Class files contains byte code. Byte codes are interpreted only by JVM's. Since these JVM's are made available across all platforms by Sun Microsystems, we can execute this byte code in any platform. Byte code generated in windows environment can also be executed in linux environment. This makes java platform independent.
+
+Ques - What is Abstract class and interface ?
+
+Ans - Abstract Class - A half-ready blueprint that contains some implemented code and some methods that subclasses must  
+                       implement.
+      Interface - A rulebook that says what a class must do but not how it should do it.
+
+Ques - What is JIT Compiler ?
+
+Ans - It stands for Just in time compiler. JIT compiler compiles byte code in to executable code. JIT a part of JVM. JIT 
+      cannot convert complete java program in to executable code it converts as and when it is needed during execution.
+
+Ques - What is bytecode in java ?
+
+Ans- When a javac compiler compiles a class it generates .class files. This .class files contains set of instructions 
+     called byte code. Byte code is a machine independent language and contains set of instructions which are to be executed by onlu JVM. JVM can understand this byte code.
+
+Ques - Difference between this() and super() in java ?
+
+Ans - this() is used to access one constructor from another with in the same class while super() is used to access superclass constructor. Either this() or super() exists it must be the first statement in the constructor.
+
