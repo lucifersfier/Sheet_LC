@@ -42,9 +42,22 @@ Ans - It stands for Just in time compiler. JIT compiler compiles byte code in to
 Ques - What is bytecode in java ?
 
 Ans- When a javac compiler compiles a class it generates .class files. This .class files contains set of instructions 
-     called byte code. Byte code is a machine independent language and contains set of instructions which are to be executed by onlu JVM. JVM can understand this byte code.
+     called byte code. Byte code is a machine independent language and contains set of instructions which are to be executed by only JVM. JVM can understand this byte code.
 
 Ques - Difference between this() and super() in java ?
 
-Ans - this() is used to access one constructor from another with in the same class while super() is used to access superclass constructor. Either this() or super() exists it must be the first statement in the constructor.
+Ans - this() is used to access one constructor from another with in the same class while super() is used to access   
+      superclass constructor. Either this() or super() exists it must be the first statement in the constructor.
 
+Ques - What is a class ?
+
+Ans - Classes are fundamental or basic unit in OOP. A class is kind of blueprint or template for objects. A class tells what type of objects we are creating.
+
+Ques - What is an object ?
+
+Ans - An object is instance of class. A class defines type of object. Each object belongs to some class. Every object contains some state and behaviour. State is determined by value of attributes and behaviour is called method. Objects are also called as an instance.
+
+Ques - What is method in Java ?
+
+Ans - It contains the executable body that can be applied to the specific object of the class.
+It includes method name, parameters or arguments and return type and a body of executable code.
