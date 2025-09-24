@@ -61,3 +61,15 @@ Ques - What is method in Java ?
 
 Ans - It contains the executable body that can be applied to the specific object of the class.
 It includes method name, parameters or arguments and return type and a body of executable code.
+
+Ques - What is encapsulation ?
+
+Ans - The process of wrapping or putting up of data into a single unit class and keeps data safe from misuse is called encapsulation. Through encapsulation we can hide and protect the data stored in java objects. Java supports encapsulation through access control. There are four access control modifiers in java public, private, protected and default level.
+For example take a car class, In car we have many parts which isn't required for driver to know what all it consists inside. He is required to know only about how to start and stop the car. So we can expose what all are required and hide the rest by using encapsulation.
+
+Ques - Why main() method is public, static and void in java ?
+
+Ans - public - It is an access specifier which can be used outside the class. when main method is declared public it means it can be used outside class.
+      static - To call a method we require object. Sometimes it may be required to call a method without the help of
+object. Then we declare that method as static. JVM calls the main() method without creating object by declaring keyword static.
+      void - Void return type is used when a method doesn't return any value. main() method doesn't return any value, so main() declared as void. 
