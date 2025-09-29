@@ -1,0 +1,3 @@
+interface pet{
+    void play();
+}
